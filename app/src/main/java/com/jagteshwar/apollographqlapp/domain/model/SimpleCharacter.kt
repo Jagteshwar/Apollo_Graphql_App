@@ -1,9 +1,8 @@
 package com.jagteshwar.apollographqlapp.domain.model
 
-data class Character(
+data class SimpleCharacter(
     val id: String = "",
+    val name : String = "",
     val image: String = "",
-    val gender: String = "",
-    val name: String = "",
     val species: String = ""
 )
